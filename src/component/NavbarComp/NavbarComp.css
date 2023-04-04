@@ -1,0 +1,18 @@
+.niClass
+{
+    font-size: 30px;
+    padding-inline: 35px;
+    
+}
+.navbtnClass
+{
+    background: transparent;
+    border: none;
+}
+.buttonClass Button
+{
+    width: 300px;
+    font-size: 20px;
+    color: #3F3F3F;
+    height: 60px;
+}

@@ -1,0 +1,104 @@
+.cardClass
+{
+    height: 490px;
+    width: 360px;
+    border-radius: 30px;
+    /* background-color: antiquewhite; */
+}
+/* .btn
+{
+    list-style: none;
+} */
+.cbClass 
+{
+    color:#3F3F3F;
+    text-decoration: none;
+    font-family: Inter500;
+    font-size: 16px;
+}
+.cbClass:hover
+{
+    color: black;
+    
+}
+
+.rateClass p
+{
+    font-size: 65px;
+    font-weight:900;
+    color: #3F3F3F;
+    font-family: poppins900;
+    margin-top: -10px;
+    
+}
+.rateClass
+{
+    /* border: 1px solid orange; */
+    border-radius: 30px;
+    border-width: 2px;
+    width: 83px;
+    height:120px;
+    padding-left: 20px;
+    margin-left: -15px;
+    /* background-color: #E8A370; */
+    
+}
+.nameClass p
+{
+    color:#3F3F3F;
+    font-size: 28px;
+    /* font-weight: 500; */
+    font-family: Inter500;
+
+}
+.nameDClass p
+{
+    color:#3F3F3F;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -15px;
+    font-family: Inter400   ;
+}
+.desClass p
+{
+    color:#3F3F3F;
+    font-size: 16px;
+   
+    margin-top: -6px;
+    font-family: Inter400;
+}
+.bClass button
+{
+    border: none;
+    background: transparent;
+    width: 130px;
+    color: #3F3F3F;
+    font-family: Inter500;
+    padding-block: 5px;
+    /* padding-inline: 9px; */
+    
+}
+.bClass i
+{
+    font-size: 25px;
+    /* padding-inline: 10px; */
+    padding-inline-end: 10px;
+}
+.bClass button:hover
+{
+    background-color: #EFEFEF;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+   
+}
+.bClass:active
+{
+    background-color: #EFEFEF;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+   
+}
+@font-face {
+    font-family: poppins900;
+    src: url('../../Fonts/Poppins-Black.ttf');
+  }
