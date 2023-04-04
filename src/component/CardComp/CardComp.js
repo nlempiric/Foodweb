@@ -3,6 +3,14 @@ import './CardComp.css'
 
 const CardComp = (props) => {
     const [like,setLike]=useState(0)
+    const likeLikes=(singularWord, pluralWord, count)=>
+    {
+        return count > 1 ? pluralWord : singularWord;
+    }
+    const dislikedisLikes=(singularWord, pluralWord, count)=>
+    {
+        return count > 1 ? pluralWord : singularWord;
+    }
     const handleCountLike=()=>
     {
         setLike(like+1);
@@ -36,10 +44,10 @@ const CardComp = (props) => {
                     </div>
                     <div className='row d-flex flex-row bClass mt-2'>
                         <div className="col-6 text-start">
-                        <button onClick={handleCountLike}><i class="fa-sharp fa-solid fa-thumbs-up" ></i>{like} Likes</button>
+                        <button onClick={handleCountLike}><i class="fa-sharp fa-solid fa-thumbs-up" ></i>{like} {likeLikes('Like','Likes',like)} </button>
                         </div>
                         <div className="col-6 text-start">
-                        <button onClick={handleCountdisLike}><i class="fa-solid fa-thumbs-down "></i>{dislike} Dislikes</button>
+                        <button onClick={handleCountdisLike}><i class="fa-solid fa-thumbs-down "></i>{dislike} {dislikedisLikes('Dislike','Dislikes',like)}</button>
                         </div>
                     </div>
                 </div>

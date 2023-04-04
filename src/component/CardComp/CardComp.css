@@ -76,6 +76,7 @@
     font-family: Inter500;
     padding-block: 5px;
     /* padding-inline: 9px; */
+    margin-left: -10px;
     
 }
 .bClass i

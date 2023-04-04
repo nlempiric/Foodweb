@@ -10,7 +10,10 @@ import  './DishMenucomp.css'
 
 
 const DishMenuComp = () => {
-    const [cart, setCart] = useState()
+    
+    // const [isActive, setActive] = useState(false);
+
+   
     const navigate = useNavigate(); 
     const handle1Click=()=>
     {
@@ -32,7 +35,9 @@ const DishMenuComp = () => {
     <div className='row mt-4 '>
         <div className='col-9 d-flex flex-row justify-content-between'>
 
-        <div class="card menucardClass"  onClick={handle1Click} >
+        {/* <div className={`card menucardClass '{isActive ? 'active' : ''}`} onClick={() => setActive(!isActive)}  > */}
+        <div class='card menucardClass'  onClick={handle1Click} >
+        {/* <div className={isActive ? 'active' : ''}   onClick={() => handleDivClick(1)} > */}
             <div className='d-flex flex-row justify-content-around align-items-center' style={{height:'100px'}}>
                 <img class="card-img-top " src={md1} alt="Card image cap"/>
             </div>
@@ -40,7 +45,8 @@ const DishMenuComp = () => {
             <div class="card-body">
                 <p class="card-title">Chicken <br/>Masala</p>
             </div>
-        </div>
+        </div>  
+        {/* <div className={isActive ? 'active' : ''} onClick={() => setActive(!isActive)}  > */}
         <div class="card menucardClass" onClick={handle2Click}>
             <div className='d-flex flex-row justify-content-around align-items-center' style={{height:'100px'}}>
                 <img class="card-img-top " src={md2} alt="Card image cap"/>
