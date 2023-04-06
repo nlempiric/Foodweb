@@ -3,6 +3,7 @@ import './DishDescComp.css'
 
 
 const DishDescComp = (props) => {
+  console.log("props===========>", props)
   return (
     <div className='d-flex flex-column text-start mt-4'>
         {/* <p id='p1' className='mt-3'>#1 Most loved dish</p>

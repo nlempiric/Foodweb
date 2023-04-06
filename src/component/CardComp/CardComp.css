@@ -67,7 +67,7 @@
     margin-top: -6px;
     font-family: Inter400;
 }
-.bClass button
+.ldClass button
 {
     border: none;
     background: transparent;
@@ -85,20 +85,15 @@
     /* padding-inline: 10px; */
     padding-inline-end: 10px;
 }
-.bClass button:hover
+.ldClass button:hover
 {
     background-color: #EFEFEF;
     border:1px solid rgba(0, 0, 0, 0.2);
     border-radius: 50px;
+    
    
 }
-.bClass:active
-{
-    background-color: #EFEFEF;
-    border:1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 50px;
-   
-}
+
 @font-face {
     font-family: poppins900;
     src: url('../../Fonts/Poppins-Black.ttf');

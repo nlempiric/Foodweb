@@ -11,6 +11,7 @@ const NavbarComp = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    
  
   return (
     <div>
@@ -25,17 +26,15 @@ const NavbarComp = () => {
                 
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
                         <li class="nav-item">
+                        
                             <button className='navbtnClass'><i class="fa-solid fa-magnifying-glass niClass"></i></button>
-                            {/* <div class="search"> 
-                            <input type="text" class="input" placeholder="Search..."/>
-                            {/* <button class="btn"><i class="fas fa-search"></i></button> */}
-                            {/* <button className='sbtnClass'><i class="fa-solid fa-magnifying-glass niClass"></i></button> */}
-                        {/* </div> */}
+
                                                 
                         </li>
                         <li class="nav-item">
                             {/* <span><i class="fa-solid fa-bars niClass"></i></span> */}
                             <button className='navbtnClass' onClick={handleShow} ><i class="fa-solid fa-bars niClass"></i></button>
+                            
                         </li>
                         
                     </ul>
@@ -43,7 +42,7 @@ const NavbarComp = () => {
             </div>
         </nav>
 
-        <Offcanvas show={show} onHide={handleClose} className='offcanvasClass' placement='end' style={{'width':'300px'}}>
+        {/* <Offcanvas show={show} onHide={handleClose} className='offcanvasClass' placement='end' style={{'width':'300px'}}>
         <Offcanvas.Header closeButton>
           
         </Offcanvas.Header>
@@ -70,7 +69,7 @@ const NavbarComp = () => {
         </Link>
         
         </Offcanvas.Body>
-      </Offcanvas>
+      </Offcanvas> */}
     </div>
   )
 }
