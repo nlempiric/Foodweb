@@ -10,15 +10,15 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <BrowserRouter>
+        <BrowserRouter>
         <Routes>
-            <Route exact path="/" element={<Page1Comp />} />
+            {/* <Route exact path="/" element={<HomePageComp />} />
             <Route path='/page1' element={<Page2Comp />} />
             <Route path='/page2' element={<Page3Comp />} />
-            <Route path='/page3' element={<Page4Comp />} />
+            <Route path='/page3' element={<Page4Comp />} /> */}
+             <Route path='/' element={<HomePageComp/>}/>
         </Routes>
-      </BrowserRouter> */}
-      <HomePageComp></HomePageComp>
+      </BrowserRouter>
       </div>
     </>
   );
